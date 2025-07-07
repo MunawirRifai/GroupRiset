@@ -1,94 +1,131 @@
-#member, #contact, #about, #home {
-  min-height: 100vh;
-}
-
+/* ===== NAVBAR (DESKTOP ≥ 769 px) ===== */
 .navbar {
-  height: 60px;              /* Ukuran tetap, cukup untuk logo & hamburger */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;           /* Hapus padding vertical agar tinggi tidak terdorong */
-  background: #fff;
   position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 2rem;
-  height: 150px;           /* atau sesuaikan ukuran yang kamu mau */
-  width: auto;
-  object-fit: contain;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent; /* ⬅️ Hilangkan efek biru di HP */
-  outline: none;
-  border: none;
-
-}
-
-
-.menu {
+  inset: 0 0 auto 0;           /* top:0 left:0 right:0 */
+  z-index: 9999;
+  height: 64px;                /* ramping */
+  padding: 0 1rem;
   display: flex;
-  gap: 15px;
-  padding-right: 50px;
+  align-items: center;
+  background: #fff;
 }
 
-.menu button {
-  background: none;
-  border: none;
-  font-size: 1rem;
-  cursor: pointer;
+.navbar .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.menu button:hover {
-  color: red;
+/* === LOGO – besar tapi tidak mendorong tinggi navbar === */
+.navbar-logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 150px;
+  width: auto;
 }
 
-/* Hamburger icon - initially hidden (desktop) */
-.hamburger {
-  display: none;
-  cursor: pointer;
+/* === TEKS BRIN === */
+.navbar-brand {
+  padding-left: 120px;         /* ruang untuk logo */
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
-/* ========== MOBILE STYLE ========== */
+/* ===== LINK & DROPDOWN – warna dasar merah Bootstrap (bs-danger) ===== */
+.navbar .nav-link,
+.navbar .dropdown-menu .dropdown-item {
+  color: var(--bs-danger) !important;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* Hover semua link → hitam */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active:hover,
+.navbar .dropdown-menu .dropdown-item:hover {
+  color: #000 !important;
+}
+
+/* Dropdown (desktop) muncul saat hover */
+.nav-item.dropdown:hover > .dropdown-menu { display: block; }
+
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;             /* agar transisi bisa bekerja */
+}
+.nav-item.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===== MOBILE ≤ 768 px ===== */
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    right: 40px;           /* Geser ke kiri dari sisi kanan */
-    z-index: 1002;
-    cursor: pointer;
-    margin-right: 40px;
-    -webkit-tap-highlight-color: transparent; /* ⬅️ Hilangkan efek biru di HP */
-    outline: none;
+
+  /* Navbar lebih tipis & fleksibel */
+  .navbar {
+    padding: 5px 1rem;
+    height: auto;              /* tinggi menyesuaikan isi */
+    min-height: 68px;
+  }
+
+  .navbar .container {
+    justify-content: space-between;
+  }
+
+  /* Logo besar & sejajar tengah tanpa absolute */
+  .navbar-logo {
+    position: static;
+    transform: none;
+    height: 80px;              /* ← perbesar logo mobile */
+    margin-right: 10px;
+  }
+
+  /* Teks BRIN tepat di samping logo */
+  .navbar-brand {
+    padding-left: 0;
+    gap: 8px;
+    font-size: 18px;
+  }
+
+  /* Hamburger tetap bersih */
+  .navbar-toggler {
     border: none;
+    padding: 6px;
   }
+  .navbar-toggler:focus { box-shadow: none; }
 
-  .menu {
+  /* Menu kolom penuh */
+  .navbar-nav {
     flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 60px;           /* Geser menu lebih ke kiri */
-    background: white;
-    border: 1px solid #ccc;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1001;
-
-    /* Animation */
-    opacity: 0;
-    transform: translateY(-10px);
-    pointer-events: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+    text-align: left;
   }
 
-  .menu.open {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+  /* Dropdown di mobile: lebar penuh & radius halus */
+  .dropdown-menu {
+    position: static;
+    width: 100%;
+    margin: 4px 0 0 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
+  .dropdown-menu .dropdown-item { padding: 8px 16px; }
 }
+
 

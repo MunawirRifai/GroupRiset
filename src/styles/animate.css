@@ -1,0 +1,41 @@
+
+.fade-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.8s ease-out;
+  }
+  .fade-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+  .fade-right {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.8s ease-out;
+  }
+  .fade-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  body, html {
+    transform: none !important;
+    overflow-x: hidden;
+    will-change: auto;
+  }
+
+
+  .fade-kiri {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.8s ease-out;
+    visibility: hidden;
+  }
+  
+  .fade-kiri.visible {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+  }

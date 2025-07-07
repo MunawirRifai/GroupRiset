@@ -1,38 +1,171 @@
 .member-section {
-    padding: 100px 20px;
-    text-align: center;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.member-leader {
+  margin: 0 auto 40px;
+  width: 100%;
+  max-width: 250px;
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeSlide 0.4s ease-in-out;
+  transition: transform 0.3s ease;
+  display: block; /* pastikan block, bukan inline */
+}
+
+.member-scholar {
+  color: #1a73e8;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  display: block;
+  text-decoration: none;
+}
+
+.member-scholar:hover {
+  text-decoration: underline;
+}
+
+
+
+.member-title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.member-subtitle {
+  margin-top: 60px; /* spacing antar section */
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Grid styling */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Card styling */
+.member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.member-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.member-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.member-major {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3px;
+}
+
+/* Button */
+.see-all-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-all-button:hover {
+  background-color: #157347;
+}
+
+/* Animasi muncul */
+.member-extra-wrapper {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, opacity 0.6s ease;
+}
+
+.member-extra-wrapper.show {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
   }
-  
-  .member-title {
-    font-size: 2rem;
-    margin-bottom: 40px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
+}
+
+.member-extra {
+  overflow: hidden;
+  animation: fadeSlide 0.4s ease-in-out;
+}
+
+/* Scroll anchor fix for peneliti id */
+#peneliti::before,
+#magang::before,
+#mahasiswa::before,
+#visiting::before,
+#firstYear::before,
+#asistenPeneliti::before {
+  content: '';
+  display: block;
+  height: 100px; /* sesuaikan dengan tinggi navbar */
+  margin-top: -100px;
+  visibility: hidden;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}@media (max-width: 768px) {
   .member-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 30px;
-    max-width: 1000px;
-    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr); /* Tampilkan 2 kolom di layar kecil */
   }
-  
-  .member-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+}
+
+
+@media (max-width: 768px) {
   .member-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 150px;
+    height: 150px;
   }
-  
-  .member-name {
-    font-weight: 500;
-    font-size: 1rem;
-  }
-  
+}
+
+

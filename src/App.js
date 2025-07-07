@@ -1,22 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './sections/Home';
-import About from './sections/About';
-import Research from './sections/Research';
-import Member from './sections/Member'
-import Contact from './sections/Contact';
+import Index from './sections/Index'
+import NavLink from './sections/NavLink'
+import { NavbarBrand } from 'reactstrap';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <div className='main-container'>
-        <Home />
-        <About />
-        <Research />
-        <Member />
-        <Contact />
+      <div className='main-wrapper'>
+        <Navbar />
+        <NavLink />
+        <Index />
       </div>
     </div>
   );

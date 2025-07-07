@@ -1,0 +1,83 @@
+.collab-section {
+    background-color: white;
+    min-height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .collab-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .collab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+    align-items: center; /* Pusatkan semua item */
+  }
+  
+  /* ITEM */
+  .collab-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* TENGAHKAN gambar + teks */
+    gap: 20px;
+    margin-bottom: 30px;
+    width: fit-content;
+  }
+  
+  /* Zigzag effect: geser kanan sedikit */
+  .collab-item:nth-child(2) {
+    transform: translateX(40px);
+  }
+  
+  /* Gambar */
+  .collab-image img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Khusus gambar pertama, buat lebih besar */
+  .collab-item:nth-child(1) .collab-image img {
+    width: 150px;
+  }
+  
+  /* Teks */
+  .collab-text {
+    max-width: 700px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .collab-text p {
+    margin: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .collab-item {
+      flex-direction: column;
+      text-align: center;
+      transform: none !important; /* Reset zigzag */
+    }
+  
+    .collab-image img {
+      width: 80px;
+    }
+  
+    .collab-text {
+      text-align: center;
+    }
+  }
+  

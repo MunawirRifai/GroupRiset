@@ -1,0 +1,217 @@
+{
+  "member": {
+    "peneliti": [
+      {
+        "nama": "Dr. Agus Subekti, MT",
+        "foto": "Dr.Agus.png",
+        "bidang": "electrical engineering & informatics",
+        "scholar": "https://scholar.google.com/citations?user=3To2BO0AAAAJ&hl=id&oi=ao"
+      },
+      {
+        "nama": "Prof. Dr. Nasrullah Armi, M.Eng",
+        "foto": "Nasrullah_Armi.png",
+        "bidang": "Cognitive Radio, Dynamic Spectrum Access, wireless communication and networks, Signal Processing",
+        "scholar": "https://scholar.google.com/citations?user=NwCRK0IAAAAJ"
+      },
+      {
+        "nama": "Dr. Eng. Arief Suryadi S",
+        "foto": "Dr.Eng.Arief.png",
+        "bidang": "Multimedia and Signal Processing, Telecommunication Systems, Electrical Engineering",
+        "scholar": "https://scholar.google.co.id/citations?user=d6MnQ9QAAAAJ&hl=en"
+      },
+      {
+        "nama": "Dr. Suyoto, MT",
+        "foto": "Dr.Suyoto.png",
+        "bidang": "Wireless Communication, Cognitive Radio, Multicarrier Systems",
+        "scholar": "https://scholar.google.co.id/citations?user=04HsvnAAAAAJ&hl=en"
+      },
+      {
+        "nama": "Dr. Purwoko Adhi, Dipl.Ing., DEA",
+        "foto": "Dr.Purwoko.png",
+        "bidang": "Signal Processing",
+        "scholar": "https://scholar.google.com/citations?user=56kF0PQAAAAJ&hl=en"
+      },
+      {
+        "nama": "Dr. Eng. Budiman Putra Asma'ur Rohman",
+        "foto": "Budiman.Ph.D.png",
+        "bidang": "Signal Processing, Machine Learning, Radar Systems",
+        "scholar": "https://scholar.google.co.id/citations?user=W4HtVZ4AAAAJ&hl=id&authuser=5"
+      },
+      {
+        "nama": "Dr. Eng. Iman Firmansyah, M.Si.",
+        "foto": "Iman,Ph.D.png",
+        "bidang": "Embedded System, High Performance Computing, Digital Signal Processing",
+        "scholar": "https://scholar.google.com/citations?user=NFO5WhYAAAAJ&hl=en"
+      },
+      {
+        "nama": "Dr. Eng. Bambang Setiadi",
+        "foto": "bambangSetiadi.png",
+        "bidang": "Signal Processing",
+        "scholar": ""
+      },
+      {
+        "nama": "Dr. Eng. Puput Dani Prasetyo Adi",
+        "foto": "Dr.Puput.png",
+        "bidang": "IEEE 802.15.4, LPWAN, Internet of Things, IoMT, Healthcare Wearable Devices",
+        "scholar": "https://scholar.google.co.id/citations?user=hHWrxVsAAAAJ&hl=id"
+      },
+      {
+        "nama": "Dr. Tajul Miftahushudur",
+        "foto": "Dr. Tajul Miftahushudur.png",
+        "bidang": "Image/Signal Processing, Deep Learning, Hyperspectral Imaging",
+        "scholar": "https://scholar.google.com/citations?user=xJ4oAkAAAAAJ&hl=id"
+      },
+      {
+        "nama": "Dayat Kurniawan, MT",
+        "foto": "DayatKurniawan.MT.png",
+        "bidang": "Signal Processing, Wireless Communication",
+        "scholar": "https://scholar.google.com/citations?user=aUWHgMcAAAAJ&hl=en"
+      },
+      {
+        "nama": "Vita Awalia Mardiana, MT",
+        "foto": "VitaAwaliaMardiana,MT.png",
+        "bidang": "Wireless Communication",
+        "scholar": "https://scholar.google.co.id/citations?user=RgoZeXEAAAAJ&hl=id"
+      },
+      {
+        "nama": "Arumjeni Mitayani, MT (on leave for PhD, UK)",
+        "foto": "Arumjeni Mitayani, MT. .png",
+        "bidang": "Telecommunication Engineering, Signal Processing",
+        "scholar": "https://scholar.google.com/citations?user=tOmFr-UAAAAJ&hl=en"
+      },
+      {
+        "nama": "Salita Ulitia Prini, MT",
+        "foto": "Salita Ulitia Prini, MT..png",
+        "bidang": "Pattern Recognition, Image Processing, Speech Processing",
+        "scholar": "https://scholar.google.com/citations?hl=en&user=oIAN3MIAAAAJ"
+      },
+      {
+        "nama": "Galih Nugraha Nurkahfi, MT (on leave for PhD, ITB)",
+        "foto": "Galih Nugraha Nurkahfi, MT..png",
+        "bidang": "Computers Network, Telecommunication, Data, Information Technology, Management",
+        "scholar": "https://scholar.google.com/citations?user=XHDaNvcAAAAJ"
+      },
+      {
+        "nama": "Mochamad Mardi Marta Dinata, MT (on leave for PhD, Japan)",
+        "foto": "Mochamad Mardi Marta Dinata, MT..png",
+        "bidang": "Telecommunication, Renewable Energy, Autonomous Vehicle, Wireless Communication",
+        "scholar": "https://scholar.google.com/citations?user=RiGu61gAAAAJ&hl=en&authuser=1"
+      },
+      {
+        "nama": "Chaeriah Bin Ali Wael, MT (on leave for PhD, France)",
+        "foto": "Chaeriah,MT.png",
+        "bidang": "Wireless Communication, Signal Processing, Cognitive Radio Network",
+        "scholar": "https://scholar.google.com/citations?user=vjZXjFkAAAAJ&hl=en"
+      },
+      {
+        "nama": "R. Indra Wijaya, MT",
+        "foto": "Ratna Indra Wijaya, MT..png",
+        "bidang": "Terahertz Communication, Nanoscale Networks, Radar, Digital Baseband And Signal Processing ",
+        "scholar": "https://scholar.google.co.id/citations?hl=id&user=3reoQfIAAAAJ"
+      },
+      {
+        "nama": "Ros Sariningrum, ST (on leave for Master)",
+        "foto": "Ros Sariningrum, ST..png",
+        "bidang": "Electronics Telecommunication",
+        "scholar": "https://scholar.google.com/citations?user=q5XZoAMAAAAJ&hl=en"
+      }
+    ],
+    "visitingResearch": [
+      {
+        "nama": "Prof Iyad Dayoub",
+        "foto": "Prof Iyad Dayoub.png",
+        "asal_institusi": "Telecommunication Engineering, Intellegent Transportation Systems, Electrical Engineering, Mobility ",
+        "scholar": "https://scholar.google.com.sg/citations?user=eS5LvfUAAAAJ&hl=id"
+      }
+    ],
+    "magang": [
+      {
+        "nama": "kevin stekelorom",
+        "foto": "Kevin.jpeg",
+        "asal_institusi": "IEMN – Institut d'Electronique, de Microélectronique et de Nanotechnologie, Valenciennes, France; Universite Polytechnique Hauts de France, France",
+        "scholar": "https://scholar.google.com.sg/citations?user=eS5LvfUAAAAJ&hl=id"
+      }
+    ],
+    "firstYearStudent": [
+      {
+        "nama": "Lia Kartika",
+        "foto": "https://i.pravatar.cc/150?img=6",
+        "asal_institusi": "Universitas Negeri Jakarta"
+      },
+      {
+        "nama": "Andi Prasetyo",
+        "foto": "https://i.pravatar.cc/150?img=7",
+        "asal_institusi": "Politeknik Bandung"
+      },
+      {
+        "nama": "Nur Hidayah",
+        "foto": "https://i.pravatar.cc/150?img=8",
+        "asal_institusi": "Universitas Brawijaya"
+      },
+      {
+        "nama": "Fajar Nugroho",
+        "foto": "https://i.pravatar.cc/150?img=9",
+        "asal_institusi": "Universitas Telkom"
+      },
+      {
+        "nama": "Citra Dewi",
+        "foto": "https://i.pravatar.cc/150?img=10",
+        "asal_institusi": "Universitas Gadjah Mada"
+      }
+    ],
+    "researchAsisten": [
+      {
+        "nama": "Dr. Sumarno",
+        "foto": "https://i.pravatar.cc/150?img=11",
+        "bidang": "Jaringan Komputer"
+      },
+      {
+        "nama": "Prof. Linda Wati",
+        "foto": "https://i.pravatar.cc/150?img=12",
+        "bidang": "Sistem Cerdas"
+      },
+      {
+        "nama": "Dr. Rafi Ramadhan",
+        "foto": "https://i.pravatar.cc/150?img=13",
+        "bidang": "Keamanan Siber"
+      },
+      {
+        "nama": "Dr. Dewi Sartika",
+        "foto": "https://i.pravatar.cc/150?img=14",
+        "bidang": "IoT dan Sensor"
+      },
+      {
+        "nama": "Dr. Bambang Setiawan",
+        "foto": "https://i.pravatar.cc/150?img=15",
+        "bidang": "Pengolahan Sinyal"
+      }
+    ],
+    "mahasiswa": [
+      {
+        "nama": "Ahmad Ramadhan",
+        "foto": "https://i.pravatar.cc/150?img=1",
+        "jurusan": "Teknik Telekomunikasi"
+      },
+      {
+        "nama": "Dina Ayu",
+        "foto": "https://i.pravatar.cc/150?img=2",
+        "jurusan": "Teknik Elektro"
+      },
+      {
+        "nama": "Budi Santoso",
+        "foto": "https://i.pravatar.cc/150?img=3",
+        "jurusan": "Informatika dan data science fkadjflakdjfkladjfaklj"
+      },
+      {
+        "nama": "Siti Rahma",
+        "foto": "https://i.pravatar.cc/150?img=4",
+        "jurusan": "Sistem Informasi"
+      },
+      {
+        "nama": "Rizki Maulana",
+        "foto": "https://i.pravatar.cc/150?img=5",
+        "jurusan": "Teknik Komputer"
+      }
+    ]
+  }
+}

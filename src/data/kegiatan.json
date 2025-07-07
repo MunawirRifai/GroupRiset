@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "title": "Communication & Signal Processing Research Group",
+    "subtitle": "Development, Analysis & Application of Modern Communication Systems",
+    "paragraphs": [
+      "The Communication and Signal Processing Research Group focuses on the development, analysis, and application of techniques for transmitting, receiving, and processing information-bearing signals.",
+      "The group conducts both theoretical and experimental research across various domains of modern communication systems."
+    ]
+  },
+
+  "activities": [
+    {
+      "title": "Digital Signal Processing (DSP)",
+      "desc": "Developing algorithms for signal enhancement, filtering, compression, and feature extraction."
+    },
+    {
+      "title": "Wireless Communication Systems",
+      "desc": "Investigating physical layer protocols for 5G, 6G, and future wireless technologies."
+    },
+    {
+      "title": "MIMO and Beamforming",
+      "desc": "Exploring spatial signal processing techniques to increase channel capacity and reliability."
+    },
+    {
+      "title": "Machine Learning for Signal Processing",
+      "desc": "Applying AI and deep learning models to improve communication system performance."
+    },
+    {
+      "title": "Software-Defined Radio (SDR)",
+      "desc": "Implementing and testing real-time communication algorithms on hardware platforms."
+    },
+    {
+      "title": "Spectrum Sensing and Cognitive Radio",
+      "desc": "Researching adaptive spectrum access techniques for dynamic spectrum allocation."
+    }
+  ],
+
+  "gallery": [
+    {
+      "src": "gambarlab1.jpeg",
+      "caption": "RF & Signal Processing Workbench"
+    },
+    {
+      "src": "gambarlab2.jpeg",
+      "caption": "Electronic Systems Lab"
+    },
+    {
+      "src": "gambarlab3.jpeg",
+      "caption": "Researcher debugging signal hardware"
+    },
+    {
+      "src": "gambarlab4.jpeg",
+      "caption": "Team working on embedded systems"
+    }
+  ],
+
+  "applications": [
+    "Radar Systems & Synthetic Aperture Radar (SAR)",
+    "Autonomous Transportation Systems",
+    "Internet of Things (IoT)",
+    "Biomedical Signal Processing",
+    "Intelligent Transportation Systems"
+  ]
+}

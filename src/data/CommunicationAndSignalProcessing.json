@@ -1,0 +1,14 @@
+{
+  "judul": {
+    "title": "Communication and Signal Processing",
+    "description": "The Communication and Signal Processing Research Group focuses on research in the fields of communication and image signal processing for communication applications, statistical signal processing, wireless communication networks, and LoRa-based Internet of Things. Applications of this research include mmWave communication, 5G, LiDAR for autonomous vehicles, vehicular communication, dynamic spectrum access, and more."
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Jl. Tamansari No.71, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132, Indonesia",
+    "phone": "0888888888",
+    "posCode": "40132",
+    "category": "Lembaga Pemerintah",
+    "area": "Bandung"
+  }
+}
