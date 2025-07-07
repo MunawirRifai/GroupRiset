@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GroupRiset/static/css/main.6d246be8.css",
-    "main.js": "/GroupRiset/static/js/main.13640fad.js",
+    "main.js": "/GroupRiset/static/js/main.c6e61eae.js",
     "static/media/BRIN.jpeg": "/GroupRiset/static/media/BRIN.6e0de1484c8eda64ee8d.jpeg",
     "static/media/kosong.png": "/GroupRiset/static/media/kosong.b43fd4ee472c1cf8ea0b.png",
     "static/media/bambangSetiadi.png": "/GroupRiset/static/media/bambangSetiadi.804b6fb43ce9c2eed296.png",
@@ -35,10 +35,10 @@
     "static/media/Dr. Tajul Miftahushudur.png": "/GroupRiset/static/media/Dr. Tajul Miftahushudur.76b89b9fa72496452693.png",
     "index.html": "/GroupRiset/index.html",
     "main.6d246be8.css.map": "/GroupRiset/static/css/main.6d246be8.css.map",
-    "main.13640fad.js.map": "/GroupRiset/static/js/main.13640fad.js.map"
+    "main.c6e61eae.js.map": "/GroupRiset/static/js/main.c6e61eae.js.map"
   },
   "entrypoints": [
     "static/css/main.6d246be8.css",
-    "static/js/main.13640fad.js"
+    "static/js/main.c6e61eae.js"
   ]
 }
